@@ -1,19 +1,19 @@
 
 INSTRUCT_CONFIG = {
     "0_1_b": {
-        "lr": 1e-5,
+        "lr": 4e-5,
         "distributed": "ddp",
         "gpu_count": 1,
-        "batch_size": 16,
+        "batch_size": 12,
     },
     "1_2_b": {
-        "lr": 1e-5,
+        "lr": 4e-5,
         "distributed": "ddp",
         "gpu_count": 1,
-        "batch_size": 10,
+        "batch_size": 8,
     },
     "2_4_b": {
-        "lr": 1e-5,
+        "lr": 4e-5,
         "distributed": "ddp",
         "gpu_count": 1,
         "batch_size": 4,
